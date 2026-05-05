@@ -29,7 +29,6 @@ class OilChangeCheckController extends Controller
                 "integer",
                 "min:0",
                 "lte:current_odometer",
-                ff,
             ],
         ]);
 

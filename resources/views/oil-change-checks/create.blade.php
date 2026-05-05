@@ -72,7 +72,6 @@
             name="current_odometer"
             type="number"
             min="0"
-            value="{{ old('current_odometer') }}"
             placeholder="123456"
             required
         >
@@ -85,7 +84,6 @@
             id="previous_oil_change_date"
             name="previous_oil_change_date"
             type="date"
-            value="{{ old('previous_oil_change_date') }}"
             required
         >
         @error('previous_oil_change_date')
@@ -98,8 +96,7 @@
             name="previous_oil_change_odometer"
             type="number"
             min="0"
-            value="{{ old('previous_oil_change_odometer') }}"
-            placeholder="112345"
+            placeholder="111222"
             required
         >
         @error('previous_oil_change_odometer')
